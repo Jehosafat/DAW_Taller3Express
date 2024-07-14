@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+  </head>
+  <body>
+    <header>
+      <%- include("partials/header") -%>
+    </header>
+    <div class="row">
+      <%- include("partials/menu") -%>
+      <div class="col">
+        <h1><%= title %></h1>
+        <p>Welcome to <%= title %></p>
+      </div>
+    </div>
+    <footer>
+      <%- include("partials/footer") -%>
+    </footer>
+  </body>
+</html>
